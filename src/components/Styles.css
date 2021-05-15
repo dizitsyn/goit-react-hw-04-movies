@@ -1,0 +1,40 @@
+a{
+    text-decoration:none    
+}
+
+.coverPic {
+    height: 400px;
+
+}
+
+.castPic{
+    height: 200px;
+   max-width:150px;
+
+}
+
+.castList{
+}
+
+.castItem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:10px;
+}
+
+.backButton{
+    margin:10px;
+}
+
+.movieInfo{
+    display: flex;
+    
+}
+
+.textInfo{
+    margin-left:20px;
+}
+
+.genre{
+    list-style:none;
+}
