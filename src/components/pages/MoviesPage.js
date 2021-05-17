@@ -54,7 +54,7 @@ export default class MoviesPage extends Component {
           <button type="submit">Search</button>
         </form>
 
-        <MoviesList movies={this.state.movies} />
+        <MoviesList movies={this.state.movies} query={this.state.query} />
       </>
     );
   }
